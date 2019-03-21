@@ -1,5 +1,7 @@
 .header__hero {
     width: 100%;
     min-height:100vh;
-    background-color:$color-primary-200;
+    background: url("../images/cover.jpg") center center no-repeat;
+    background-size: cover;
+    border: 1px solid blue;
 }
