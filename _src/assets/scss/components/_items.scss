@@ -1,12 +1,15 @@
 .item {
-    grid-area: item;
-}
+    width: 184px;
+    margin:auto;
+    text-align: center;
+    }
 
 .item__title {
     font-family: $font-primary;
     font-size: $font-size-primary;
     font-weight: 700;
     color: $color-dark-400;
+    text-align: center;
 }
 
 .item__description {
