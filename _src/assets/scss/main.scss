@@ -1,8 +1,11 @@
 @import 'core/variables';
 @import 'core/mixins';
 @import 'core/base';
-
+/*components of hero*/
 @import 'components/hero';
 @import 'components/header-menu';
 @import 'components/claim';
 @import 'components/button-down';
+/*components of main*/
+@import 'components/main-description';
+@import 'components/items';

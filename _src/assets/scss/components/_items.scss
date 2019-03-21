@@ -1,0 +1,15 @@
+.item {
+    grid-area: item;
+}
+
+.item__title {
+    font-family: $font-primary;
+    font-size: $font-size-primary;
+    font-weight: 700;
+    color: $color-dark-400;
+}
+
+.item__description {
+    @include basicText();
+}
+

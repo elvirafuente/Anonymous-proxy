@@ -1,0 +1,25 @@
+.main__section {
+    &--bgcolor {
+        background: $color-primary-200;
+    }
+}
+
+
+.section__up-title {
+    font-family: $font-secundary;
+    font-size: $font-size-secundary;
+    color: $color-primary-300;
+}
+
+.section__title {
+    font-family: $font-primary;
+    font-size: $font-size-title;
+    font-weight: 700;
+    color: $color-dark-400;
+}
+
+.section__description {
+    @include basicText();
+    color: $color-dark-300;
+}
+

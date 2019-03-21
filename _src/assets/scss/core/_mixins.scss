@@ -3,3 +3,9 @@
     justify-content:center;
     align-items: center;
 }
+
+@mixin basicText() {
+    font-family: $font-secundary;
+    font-size: $font-size-primary;
+    line-height: 30px;
+}
