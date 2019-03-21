@@ -1,0 +1,22 @@
+.header__claim{
+    width: 290px;
+    height: 110px;
+    font-family: $font-primary;
+    font-size:42px;
+    font-weight: 700;
+    line-height: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    color: $color-light-400;
+
+}
+
+.header__sub-claim {
+    width:290px;
+    height: 21px;
+    font-family: $font-secundary;
+    font-size: $font-size-secundary;
+    color: $color-light-400;
+    text-align: center;
+    margin: 10px auto;  
+}

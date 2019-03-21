@@ -1,0 +1,13 @@
+.header__scroll-down{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color:$color-light-400;
+    @include flexCentered();
+    margin: 35px auto 53px;
+}
+
+.scroll-down__image{
+    width: 20px;
+    height: 12px;
+}

@@ -1,5 +1,15 @@
 .header__menu {
     width: 44px;
-    height:500px;
-   
+    height:44px;
+    background-color: $color-primary-400;
+    padding: 15px 14px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.menu__image {
+    width:16px;
+    height:14px;
+
 }
