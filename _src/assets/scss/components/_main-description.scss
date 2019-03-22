@@ -6,7 +6,7 @@
     background: $color-primary-200;
     text-align: center;
     display:grid;
-    grid-template-rows: 30px 1fr 45px;
+    grid-template-rows: 30px 1fr 60px;
     grid-gap: 45px;
 }
 
@@ -29,6 +29,6 @@
 .section__description {
     @include basicText();
     color: $color-dark-300;
-    margin: 15px auto 15px;
+    margin: 15px auto 30px;
 }
 

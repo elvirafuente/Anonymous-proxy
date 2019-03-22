@@ -1,0 +1,53 @@
+.btn {
+    height: 45px;
+    font-family: $font-secundary;
+    font-size: $font-size-btn;
+    font-weight: 500;
+    text-decoration: none;
+    @include flexCentered();
+
+    &-scroll-down{
+        width: 45px;
+        border-radius: 50%;
+        background-color:$color-light-400;
+        @include flexCentered();
+        margin: 35px auto 53px;
+    }
+
+    &-up{
+        width: 45px;
+        border-radius: 50%;
+        background-color:$color-light-400;
+        @include flexCentered();
+        position: relative;
+        margin: 0 auto;
+        transform: translateY(-50%);
+        box-shadow: 0 2px 4px 0 $color-dark-400;
+
+    }
+
+    &-inactive{
+        padding:0 25px;
+        border-radius: 22.5px;
+        border: 2px solid $color-secundary-400;
+        color: $color-secundary-400;
+        background-color: $color-light-400;
+        margin: 0;
+        display: inline-flex;
+    }
+    &-default {
+        padding:0 30px;
+        border-radius: 22.5px;
+        background-color: $color-secundary-400;
+        color: $color-light-400;
+        margin: 0 auto;
+        width: 184px;
+    }
+    
+}
+
+.scroll-down__image{
+    width: 20px;
+    height: 12px;
+}
+
