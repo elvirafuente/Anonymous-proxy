@@ -9,14 +9,26 @@
     text-align: center;
     color: $color-light-400;
 
+    @media all and (min-width:768px) {
+        width: 690px;
+        height: 212px;
+        font-size: 80px;
+        line-height: 106px;
+    }
+
 }
 
 .header__sub-claim {
-    width:290px;
     height: 21px;
     font-family: $font-secundary;
     font-size: $font-size-secundary;
     color: $color-light-400;
     text-align: center;
-    margin: 10px auto;  
+    margin: 10px auto; 
+
+    @media all and (min-width:768px) {
+        height: 32px;
+        font-size:24px;
+        margin: 20px auto;
+    }
 }

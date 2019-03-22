@@ -12,6 +12,10 @@
         background-color:$color-light-400;
         @include flexCentered();
         margin: 35px auto 53px;
+
+        @media all and (min-width:768px) {
+        margin: 10px auto 45px;
+        }
     }
 
     &-up{
