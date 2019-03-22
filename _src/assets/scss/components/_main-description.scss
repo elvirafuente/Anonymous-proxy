@@ -1,11 +1,19 @@
 .main__section {
-    &--bgcolor {
-        background: $color-primary-200;
-    }
+    padding: 30px 15px 45px;
+}
+    
+.second-section {
+    background: $color-primary-200;
+    text-align: center;
+    display:grid;
+    grid-template-rows: 30px 1fr 45px;
+    grid-gap: 45px;
 }
 
 
+
 .section__up-title {
+    height: 30px;
     font-family: $font-secundary;
     font-size: $font-size-secundary;
     color: $color-primary-300;
@@ -21,5 +29,6 @@
 .section__description {
     @include basicText();
     color: $color-dark-300;
+    margin: 15px auto 15px;
 }
 
