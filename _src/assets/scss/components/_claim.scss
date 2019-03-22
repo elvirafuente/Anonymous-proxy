@@ -16,6 +16,12 @@
         line-height: 106px;
     }
 
+    @media all and (min-width:1280px) {
+        width: 730px;
+        height: 264px;
+        font-size: 100px;
+        line-height: 132px;
+    }
 }
 
 .header__sub-claim {
@@ -31,4 +37,8 @@
         font-size:24px;
         margin: 20px auto;
     }
+    @media all and (min-width:1280px) {
+        margin: 0 auto;
+    }
+
 }

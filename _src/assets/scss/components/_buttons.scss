@@ -14,7 +14,11 @@
         margin: 35px auto 53px;
 
         @media all and (min-width:768px) {
-        margin: 10px auto 45px;
+            margin: 10px auto 45px;
+        }
+
+        @media all and (min-width:1280px) {
+            margin: 30px auto 13px;
         }
     }
 
