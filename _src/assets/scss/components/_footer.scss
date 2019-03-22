@@ -4,6 +4,13 @@
     color: $color-light-400;
     text-align: center;
     padding-bottom: 45px;
+    @media all and (min-width:768px) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: left;
+        justify-content: center;
+    }
 }
 
 .secundary-menu {
@@ -12,10 +19,33 @@
     font-family: $font-secundary;
     text-transform: uppercase;
     line-height: 30px;
+    @media all and (min-width:768px) {
+        padding:45px;
+        order:1;
+        display:flex;
+        flex-direction: row;
+    }
 }
+
+.footer__info-container{
+    display: flex;
+    flex-direction: column;
+    @media all and (min-width:768px) {
+        padding: 45px;
+        width: 210px;
+    }
+
+}
+
 
 .menu__list {
     margin-bottom: 30px;
+    @media all and (min-width:768px) {
+        width: 210px;
+        margin-bottom: 0px;
+    }
+
+
 }
 
 .heart {
