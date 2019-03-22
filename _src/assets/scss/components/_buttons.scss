@@ -28,7 +28,6 @@
         left: 50%;
         transform: translate(-50%, -50%);
         box-shadow: 0 2px 4px 0 $color-dark-400;
-
     }
 
     &-inactive{
@@ -39,6 +38,9 @@
         background-color: $color-light-400;
         margin: 0;
         display: inline-flex;
+        @media all and (min-width:768px) {
+            padding: 0 33px;
+        }
     }
     &-default {
         padding:0 30px;

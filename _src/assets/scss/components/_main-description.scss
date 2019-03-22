@@ -1,5 +1,9 @@
 .main__section {
     padding: 30px 15px 45px;
+
+    @media all and (min-width:768px) {
+        padding: 30px 39px 60px;
+    }
 }
     
 .second-section {
@@ -24,11 +28,18 @@
     font-size: $font-size-title;
     font-weight: 700;
     color: $color-dark-400;
+    @media all and (min-width:768px) {
+        font-size: $font-size-title-tablet;
+    }
 }
 
 .section__description {
     @include basicText();
     color: $color-dark-300;
     margin: 15px auto 30px;
+    @media all and (min-width:768px) {
+        font-size:$font-size-primary-tablet;
+        margin: 30px auto;
+    }
 }
 
