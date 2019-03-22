@@ -4,15 +4,22 @@
     @media all and (min-width:768px) {
         padding: 30px 39px 60px;
     }
+
+    @media all and (min-width:1280px) {
+        padding: 60px 80px;
+    }
+}
+
+.first-section {
+    @media all and (min-width:1280px) {
+        padding: 60px 275px;
+    }
 }
     
 .second-section {
     background: $color-primary-200;
     text-align: center;
-     
 }
-
-
 
 .section__up-title {
     height: 30px;
@@ -28,6 +35,9 @@
     color: $color-dark-400;
     @media all and (min-width:768px) {
         font-size: $font-size-title-tablet;
+    }
+    @media all and (min-width:1280px) {
+        font-size: $font-size-title-desktop;
     }
 }
 

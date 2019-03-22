@@ -9,6 +9,11 @@
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 28px;
     }
+    @media all and (min-width:768px) {
+        grid-gap:30px;
+        margin: 45px auto 0;
+        grid-gap:26px;
+    }
 }
 .item {
     width: 190px;
@@ -16,23 +21,25 @@
     @media all and (min-width:768px) {
         width: 213px;
     }
+    @media all and (min-width:1280px) {
+        width: 353px;
+        
+    }
 }
 
     
 .item__2{
     margin: 0 auto;
-    @media all and (min-width:768px) {
 
-    }
 }
 
-    .item__1 {
-        margin: 0 auto;
-    }
+.item__1 {
+    margin: 0 auto;
+}
 
-    .item__3 {
-        margin: 0 auto;
-    }
+.item__3 {
+    margin: 0 auto;
+}
 
 
 
@@ -42,9 +49,15 @@
     font-weight: 700;
     color: $color-dark-400;
     text-align: center;
+    @media all and (min-width:768px) {
+        font-size: $font-size-primary-tablet;  
+    }   
 }
 
 .item__description {
     @include basicText();
+    @media all and (min-width:768px) {
+        font-size: $font-size-primary-tablet;  
+    }
 }
 

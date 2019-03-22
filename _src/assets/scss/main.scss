@@ -4,11 +4,17 @@
 
 @import 'components/buttons';
 /*components of hero*/
-@import 'components/hero';
+
 @import 'components/header-menu';
 @import 'components/claim';
 /*components of main*/
-@import 'components/main-content';
+
 @import 'components/items';
 /*components of footer*/
-@import 'components/footer';
+
+
+
+/*layout*/
+@import 'layout/hero';
+@import 'layout/main-content';
+@import 'layout/footer';
