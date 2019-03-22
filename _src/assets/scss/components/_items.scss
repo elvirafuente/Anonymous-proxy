@@ -4,6 +4,10 @@
     grid-template-rows: 93px 93px 93px;
     grid-gap:45px;
     @media all and (min-width:768px) {
+        margin: 60px auto 0;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 28px;
 
     }
 }
@@ -19,7 +23,7 @@
 .item__2{
     margin: 0 auto;
     @media all and (min-width:768px) {
-        margin: 0px;
+
     }
 }
 
