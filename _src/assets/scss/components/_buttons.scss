@@ -47,10 +47,12 @@
         border-radius: 22.5px;
         background-color: $color-secundary-400;
         color: $color-light-400;
-        margin: 0 auto;
+        margin: 45px auto 15px;
         width: 184px;
-    }
-    
+        @media all and (min-width:768px) {
+            grid-column: 1/4;
+        }
+    }  
 }
 
 .scroll-down__image{

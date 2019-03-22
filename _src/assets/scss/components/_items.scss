@@ -1,13 +1,37 @@
 .section__items {
-    margin:0 auto;
+    margin: 45px auto 0;
+    display:grid;
+    grid-template-rows: 93px 93px 93px;
+    grid-gap:45px;
+    @media all and (min-width:768px) {
+
+    }
 }
 .item {
     width: 190px;
     text-align: center;
-    &:nth-child(2){
-        margin: 45px auto 45px;
+    @media all and (min-width:768px) {
+        width: 213px;
     }
 }
+
+    
+.item__2{
+    margin: 0 auto;
+    @media all and (min-width:768px) {
+        margin: 0px;
+    }
+}
+
+    .item__1 {
+        margin: 0 auto;
+    }
+
+    .item__3 {
+        margin: 0 auto;
+    }
+
+
 
 .item__title {
     font-family: $font-primary;
@@ -15,7 +39,6 @@
     font-weight: 700;
     color: $color-dark-400;
     text-align: center;
-    grid-area: title;
 }
 
 .item__description {
