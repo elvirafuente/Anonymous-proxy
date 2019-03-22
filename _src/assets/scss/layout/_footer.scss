@@ -36,9 +36,10 @@
     flex-direction: column;
     @media all and (min-width:768px) {
         width: 210px;
+        padding: 45px 0;
     }
     @media all and (min-width:1280px) {
-        padding: 45px 0;
+
         width: 160px;
     }
 }
