@@ -1,7 +1,7 @@
 .main__footer {
-    background-color: $color-primary-500;
+    background-color: $color-primary-400;
     position: relative;
-    color: $color-light-400;
+    color: $color-dark-400;
     text-align: center;
     padding-bottom: 45px;
     font-family: $font-secundary;
@@ -39,14 +39,13 @@
         padding: 45px 0;
     }
     @media all and (min-width:1280px) {
-
         width: 160px;
     }
 }
 
 
 .menu__list {
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     @media all and (min-width:768px) {
         width: 160px;
         margin-bottom: 0px;
@@ -55,4 +54,14 @@
 
 .heart {
     color:$color-secundary-400;
+}
+
+.footer__info-components {
+    order: -1;
+}
+
+.components {
+    @media all and (min-width:768px) {
+        color:$color-secundary-400;
+    }
 }
